@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="org"
+          fetch="https://github.com/shield44-project" />
+
+  <remote name="Pe"
+          fetch="https://github.com/PixelExperience-Devices" />
+  
+  <!-- Device Trees -->
+        <project name="device_xiaomi_fog" path="device/xiaomi/fog" remote="org" revision="lineage-19.1" />
+
+   <!-- Vendor Trees -->
+        <project name="vendor_xiaomi_fog" path="vendor/xiaomi/fog" remote="org" revision="lineage-19.1" />
+        
+   <!-- kernel Trees -->
+        <project name="kernel_xiaomi_spes" path="kernel/xiaomi/bengal" remote="Pe" revision="twelve" />
+
+</manifest>
